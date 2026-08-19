@@ -1,0 +1,15 @@
+{
+  "name": "time-server",
+  "version": "1.0.0",
+  "description": "时间服务器网站：HTTP 时间 API + NTP 风格对时 + 可选 UDP SNTP 系统级对时",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:sntp": "ENABLE_SNTP=true node server.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": ["time", "ntp", "sntp", "time-server", "clock"],
+  "license": "MIT"
+}
